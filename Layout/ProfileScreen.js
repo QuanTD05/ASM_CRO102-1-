@@ -43,9 +43,9 @@ const ProfileScreen = ({navigation, route}) => {
         <Text style={styles.textGray}>Chung 
         {'\n'}_________________________________________________</Text>
         <Text onPress={() => navigation.navigate('ManageUser')}>Chỉnh sửa thông tin</Text>
-        <Text>Cẩm năng trồng cây</Text>
+        <Text onPress={() => navigation.navigate('PlantGuideScreen')}>Cẩm nang trồng cây</Text>
         <Text onPress={() => navigation.navigate('NoticeScreen')}>Lịch sử giao dịch</Text>
-        <Text>Q & A</Text>
+        <Text onPress={() => navigation.navigate('QAScreen')}>Q & A</Text>
       </View>
 
       <View style={styles.option}>

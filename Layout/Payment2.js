@@ -81,29 +81,25 @@ const Payment2 = ({ navigation, route }) => {
     const finalBill = async (status) => {
         const url = `${URL}/hoadons/${id_bill}`;
         const FinalBill = {
-            id_User : user.id,
-            diaChi : diaChi,
-            soDienThoai : soDienThoai,
-            ship : ship,
-            pay : pay,
-            total : total + (ship ? 15000 : 20000),
-            status : status,
+            id_User: user.id,
+            diaChi,
+            soDienThoai,
+            ship,
+            pay,
+            total: total + (ship ? 15000 : 20000),
+            status,
             ngayMua: date
         };
-
-        const res = await fetch(url,{
-            method : 'PUT',
+        const res = await fetch(url, {
+            method: 'PUT',
             body: JSON.stringify(FinalBill),
-            headers: {
-                "Content-Type" : "application/json"
-            }
+            headers: { "Content-Type": "application/json" }
         });
-
-        if(res.ok){
-            const data = await res.json();
-            navigation.navigate('FinalBill',{id_bill : id_bill});
+        if (res.ok) {
+            setmodalTiepTuc(false);
+            navigation.navigate('FinalBill', { id_bill });
         }
-    }
+    };
 
     return (
         <View style={styles.container}>

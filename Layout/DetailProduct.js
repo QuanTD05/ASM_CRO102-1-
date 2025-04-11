@@ -90,7 +90,8 @@ export default DetailProduct
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    gap: 16
+    gap: 16,
+    marginTop: 20
   },
   header: {
     flexDirection: 'row',

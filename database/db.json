@@ -450,6 +450,41 @@
       "id_Product": "3",
       "soLuongMua": 1,
       "giaMua": "120.000"
+    },
+    {
+      "id": "2caa",
+      "id_bill": "165b",
+      "id_Product": "2",
+      "soLuongMua": 2,
+      "giaMua": "350.000"
+    },
+    {
+      "id": "ff35",
+      "id_bill": "1922",
+      "id_Product": "1",
+      "soLuongMua": 1,
+      "giaMua": "250.000"
+    },
+    {
+      "id": "a1e0",
+      "id_bill": "d225",
+      "id_Product": "2",
+      "soLuongMua": 2,
+      "giaMua": "350.000"
+    },
+    {
+      "id": "e5b4",
+      "id_bill": "2d7a",
+      "id_Product": "2",
+      "soLuongMua": 1,
+      "giaMua": "350.000"
+    },
+    {
+      "id": "af8f",
+      "id_bill": "53bd",
+      "id_Product": "1",
+      "soLuongMua": 1,
+      "giaMua": "250.000"
     }
   ],
   "notices": [],
@@ -680,6 +715,61 @@
       "status": 0,
       "ngayMua": "2025-03-27T17:54:34.107Z",
       "id": "c8f5"
+    },
+    {
+      "id_User": "3",
+      "diaChi": "fcvb",
+      "soDienThoai": "022335555",
+      "ship": true,
+      "pay": true,
+      "total": 715000,
+      "status": 0,
+      "ngayMua": "2025-04-04T14:47:15.948Z",
+      "id": "165b"
+    },
+    {
+      "id_User": "3",
+      "diaChi": "a",
+      "soDienThoai": "a",
+      "ship": true,
+      "pay": true,
+      "total": 265000,
+      "status": 0,
+      "ngayMua": "2025-04-04T14:52:47.011Z",
+      "id": "1922"
+    },
+    {
+      "id_User": "3",
+      "diaChi": "a",
+      "soDienThoai": "032222225",
+      "ship": true,
+      "pay": true,
+      "total": 715000,
+      "status": 0,
+      "ngayMua": "2025-04-04T15:07:13.051Z",
+      "id": "d225"
+    },
+    {
+      "id_User": "3",
+      "diaChi": "a",
+      "soDienThoai": "222222",
+      "ship": true,
+      "pay": true,
+      "total": 365000,
+      "status": 0,
+      "ngayMua": "2025-04-04T15:08:14.480Z",
+      "id": "2d7a"
+    },
+    {
+      "id_User": "3",
+      "diaChi": "ss",
+      "soDienThoai": "121",
+      "ship": true,
+      "pay": true,
+      "total": 265000,
+      "status": 0,
+      "ngayMua": "2025-04-11T18:51:24.179Z",
+      "id": "53bd"
     }
   ]
 }

@@ -14,6 +14,9 @@ import PlantaSceen from '../Layout/PlantaScreen';
 import CartScreen from '../Layout/CartScreen';
 import Payment2 from '../Layout/Payment2';
 import FinalBill from '../Layout/FinalBill';
+import QAScreen from '../Layout/QAScreen';
+import PlantGuideScreen from '../Layout/PlantGuideScreen';
+import PlantDetailScreen from '../Layout/PlantDetailScreen';
 
 
 
@@ -74,6 +77,9 @@ const MainNavigator = () => {
             <Stack.Screen name='SearchScreen' component={SearchScreen} />
             <Stack.Screen name='FinalBill' component={FinalBill} />
             <Stack.Screen name='NoticeScreen' component={NoticeScreen} />
+            <Stack.Screen name="QAScreen" component={QAScreen} />
+            <Stack.Screen name="PlantGuideScreen" component={PlantGuideScreen} />
+            <Stack.Screen name="PlantDetailScreen" component={PlantDetailScreen} />
         </Stack.Navigator>
     )
 }
